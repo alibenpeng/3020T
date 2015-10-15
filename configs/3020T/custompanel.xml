@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pyvcp>
+  <vbox>
+    <hbox>
+      <led>
+        <halpin>"probe-in"</halpin>
+        <size>15</size>
+        <on_color>"red"</on_color>
+        <off_color>"green"</off_color>
+      </led>
+      <label>
+        <text>"Probe"</text>
+      </label>
+    </hbox>
+    <label>
+      <text>"closed (red)"</text>
+    </label>
+    <label>
+      <text>"open (green)"</text>
+    </label>
+  </vbox>
+
+  <button>
+    <halpin>"o101"</halpin>
+    <text>"Touch off X and Y"</text>
+    <font>('fixed', 10)</font>
+  </button>
+
+  <button>
+    <halpin>"o102"</halpin>
+    <text>"Go Home!"</text>
+    <font>('fixed', 10)</font>
+  </button>
+
+  <button>
+    <halpin>"o103"</halpin>
+    <text>"Come to Daddy!"</text>
+    <font>('fixed', 10)</font>
+  </button>
+</pyvcp>
