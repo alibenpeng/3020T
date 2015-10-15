@@ -1,6 +1,7 @@
 o105 sub
+  ( Camera -> Tool )
   #<cam_offset_x> = 25
-  #<cam_offset_y> = 25
+  #<cam_offset_y> = -25
   G91 G0 X[0-#<cam_offset_x>] Y[0-#<cam_offset_y>]
   G90
 o105 endsub
