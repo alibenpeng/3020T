@@ -21,8 +21,14 @@
   </vbox>
 
   <button>
-    <halpin>"o101"</halpin>
+    <halpin>"o100"</halpin>
     <text>"Touch off X and Y"</text>
+    <font>('fixed', 10)</font>
+  </button>
+
+  <button>
+    <halpin>"o101"</halpin>
+    <text>"Probe Z"</text>
     <font>('fixed', 10)</font>
   </button>
 
@@ -35,6 +41,18 @@
   <button>
     <halpin>"o103"</halpin>
     <text>"Come to Daddy!"</text>
+    <font>('fixed', 10)</font>
+  </button>
+
+  <button>
+    <halpin>"o104"</halpin>
+    <text>"Tool -> Camera"</text>
+    <font>('fixed', 10)</font>
+  </button>
+
+  <button>
+    <halpin>"o105"</halpin>
+    <text>"Camera -> Tool"</text>
     <font>('fixed', 10)</font>
   </button>
 </pyvcp>

@@ -5,7 +5,10 @@ sets spindle-at-speed true
 
 net probe-in => pyvcp.probe-in
 
-net remote-o101 halui.mdi-command-00 <= pyvcp.o101
-net remote-o102 halui.mdi-command-01 <= pyvcp.o102
-net remote-o103 halui.mdi-command-02 <= pyvcp.o103
+net remote-o100 halui.mdi-command-00 <= pyvcp.o100
+net remote-o101 halui.mdi-command-01 <= pyvcp.o101
+net remote-o102 halui.mdi-command-02 <= pyvcp.o102
+net remote-o103 halui.mdi-command-03 <= pyvcp.o103
+net remote-o104 halui.mdi-command-04 <= pyvcp.o104
+net remote-o105 halui.mdi-command-05 <= pyvcp.o105
 

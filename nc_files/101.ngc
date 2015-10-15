@@ -1,8 +1,10 @@
 o101 sub
-(Sets X0 with offset of 1.5)
-G10 L20 P1 X0
-(Sets Y0 with offset of 1.5)
-G10 L20 P1 y0
-(Moves to Xo Y0)
-G1 X0 Y0 F900
+  ( Set current Z position to 0 so that we will always be moving down )
+  G10 L20 P0 Z0
+  ( Probe to Z-10 at F25 [Uses machine units, I work in mm, this is meant to be slow!] )
+  G38.2 Z-10 f25
+  ( Set Z0 at point where probe triggers )
+  G10 L20 P0 Z0
+  ( Rapid up to Z10 above the material )
+  G0 Z10
 o101 endsub
