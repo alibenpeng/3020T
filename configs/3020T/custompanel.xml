@@ -33,18 +33,6 @@
   </button>
 
   <button>
-    <halpin>"o102"</halpin>
-    <text>"Go Home!"</text>
-    <font>('fixed', 10)</font>
-  </button>
-
-  <button>
-    <halpin>"o103"</halpin>
-    <text>"Come to Daddy!"</text>
-    <font>('fixed', 10)</font>
-  </button>
-
-  <button>
     <halpin>"o104"</halpin>
     <text>"Tool -> Camera"</text>
     <font>('fixed', 10)</font>
@@ -53,6 +41,18 @@
   <button>
     <halpin>"o105"</halpin>
     <text>"Camera -> Tool"</text>
+    <font>('fixed', 10)</font>
+  </button>
+
+  <button>
+    <halpin>"o102"</halpin>
+    <text>"Go Home"</text>
+    <font>('fixed', 10)</font>
+  </button>
+
+  <button>
+    <halpin>"o103"</halpin>
+    <text>"Come to Daddy"</text>
     <font>('fixed', 10)</font>
   </button>
 </pyvcp>
