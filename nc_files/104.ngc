@@ -1,0 +1,6 @@
+o104 sub
+  #<cam_offset_x> = 25
+  #<cam_offset_y> = 25
+  G91 G0 X[#<cam_offset_x>] Y[#<cam_offset_y>]
+  G90
+o104 endsub
